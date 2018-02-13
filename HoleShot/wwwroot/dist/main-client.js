@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "9e957fa8e71503ae8edd"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "1e4fe1c65d8bfe946635"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -7788,390 +7788,9 @@ var Home = (function (_super) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1), __webpack_require__(2)(module)))
 
 /***/ }),
-/* 187 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process, module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavMenu; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__UserPanel__ = __webpack_require__(189);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__SearchForm__ = __webpack_require__(188);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-var NavMenu = (function (_super) {
-    __extends(NavMenu, _super);
-    function NavMenu() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    NavMenu.prototype.render = function () {
-        return (__WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("aside", { className: "main-sidebar" },
-            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("section", { className: "sidebar" },
-                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"](__WEBPACK_IMPORTED_MODULE_1__UserPanel__["a" /* default */], null),
-                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"](__WEBPACK_IMPORTED_MODULE_2__SearchForm__["a" /* default */], null),
-                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "sidebar-menu", "data-widget": "tree" },
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "header" }, "MAIN NAVIGATION"),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "active treeview" },
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-dashboard" }),
-                            " ",
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Dashboard"),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "active" },
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "index.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Dashboard v1")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "index2.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Dashboard v2")))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-files-o" }),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Layout Options"),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "label label-primary pull-right" }, "4"))),
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/layout/top-nav.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Top Navigation")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/layout/boxed.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Boxed")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/layout/fixed.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Fixed")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/layout/collapsed-sidebar.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Collapsed Sidebar")))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/widgets.html" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-th" }),
-                            " ",
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Widgets"),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "label pull-right bg-green" }, "new")))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-pie-chart" }),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Charts"),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/charts/chartjs.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " ChartJS")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/charts/morris.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Morris")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/charts/flot.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Flot")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/charts/inline.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Inline charts")))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-laptop" }),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "UI Elements"),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/UI/general.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " General")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/UI/icons.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Icons")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/UI/buttons.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Buttons")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/UI/sliders.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Sliders")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/UI/timeline.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Timeline")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/UI/modals.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Modals")))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-edit" }),
-                            " ",
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Forms"),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/forms/general.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " General Elements")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/forms/advanced.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Advanced Elements")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/forms/editors.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Editors")))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-table" }),
-                            " ",
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Tables"),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/tables/simple.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Simple tables")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/tables/data.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Data tables")))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/calendar.html" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-calendar" }),
-                            " ",
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Calendar"),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "label pull-right bg-red" }, "3"),
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "label pull-right bg-blue" }, "17")))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/mailbox/mailbox.html" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-envelope" }),
-                            " ",
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Mailbox"),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "label pull-right bg-yellow" }, "12"),
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "label pull-right bg-green" }, "16"),
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "label pull-right bg-red" }, "5")))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-folder" }),
-                            " ",
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Examples"),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/invoice.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Invoice")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/profile.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Profile")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/login.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Login")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/register.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Register")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/lockscreen.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Lockscreen")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/404.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " 404 Error")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/500.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " 500 Error")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/blank.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Blank Page")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/pace.html" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Pace Page")))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-share" }),
-                            " ",
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Multilevel"),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Level One")),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Level One",
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
-                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                            " Level Two")),
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
-                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                            " Level Two",
-                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
-                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
-                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
-                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                                    " Level Three")),
-                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                                    " Level Three")))))),
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
-                                    " Level One")))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "https://adminlte.io/docs" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-book" }),
-                            " ",
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Documentation"))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "header" }, "LABELS"),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o text-red" }),
-                            " ",
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Important"))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o text-yellow" }),
-                            " ",
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Warning"))),
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o text-aqua" }),
-                            " ",
-                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Information")))))));
-    };
-    return NavMenu;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]));
-
-
-
- ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\LayoutNavMenu\\NavMenu.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\LayoutNavMenu\\NavMenu.tsx"); } } })();
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1), __webpack_require__(2)(module)))
-
-/***/ }),
-/* 188 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process, module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-var SearchForm = (function (_super) {
-    __extends(SearchForm, _super);
-    function SearchForm() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    SearchForm.prototype.render = function () {
-        return (__WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("form", { action: "#", method: "get", className: "sidebar-form" },
-            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "input-group" },
-                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("input", { type: "text", name: "q", className: "form-control", placeholder: "Search..." }),
-                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "input-group-btn" },
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("button", { type: "submit", name: "search", id: "search-btn", className: "btn btn-flat" },
-                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-search" }))))));
-    };
-    return SearchForm;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]));
-/* harmony default export */ __webpack_exports__["a"] = (SearchForm);
-
-
- ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\LayoutNavMenu\\SearchForm.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\LayoutNavMenu\\SearchForm.tsx"); } } })();
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1), __webpack_require__(2)(module)))
-
-/***/ }),
-/* 189 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process, module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-var UserPanel = (function (_super) {
-    __extends(UserPanel, _super);
-    function UserPanel() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    UserPanel.prototype.render = function () {
-        return (__WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "user-panel" },
-            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "pull-left image" },
-                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("img", { src: "dist/img/user2-160x160.jpg", className: "img-circle", alt: "User Image" })),
-            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "pull-left info" },
-                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "Alexander Pierce"),
-                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
-                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle text-success" }),
-                    " Online"))));
-    };
-    return UserPanel;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]));
-/* harmony default export */ __webpack_exports__["a"] = (UserPanel);
-
-
- ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\LayoutNavMenu\\UserPanel.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\LayoutNavMenu\\UserPanel.tsx"); } } })();
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1), __webpack_require__(2)(module)))
-
-/***/ }),
+/* 187 */,
+/* 188 */,
+/* 189 */,
 /* 190 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8179,7 +7798,10 @@ var UserPanel = (function (_super) {
 /* WEBPACK VAR INJECTION */(function(process, module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Layout; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__LayoutNavMenu_NavMenu__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__NavMenu_NavMenu__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header_Header__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__SideBar_SideBar__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Footer__ = __webpack_require__(216);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -8190,6 +7812,9 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+
+
+
 
 
 var Layout = (function (_super) {
@@ -8199,7 +7824,8 @@ var Layout = (function (_super) {
     }
     Layout.prototype.render = function () {
         return __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", null,
-            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"](__WEBPACK_IMPORTED_MODULE_1__LayoutNavMenu_NavMenu__["a" /* NavMenu */], null),
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"](__WEBPACK_IMPORTED_MODULE_2__Header_Header__["a" /* Header */], null),
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"](__WEBPACK_IMPORTED_MODULE_1__NavMenu_NavMenu__["a" /* NavMenu */], null),
             __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "content-wrapper" },
                 __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("section", { className: "content-header" },
                     __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h1", null,
@@ -8213,7 +7839,9 @@ var Layout = (function (_super) {
                         __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
                             __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" }, "Examples")),
                         __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "active" }, "Blank page"))),
-                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("section", { className: "content" }, this.props.children)));
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("section", { className: "content" }, this.props.children)),
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"](__WEBPACK_IMPORTED_MODULE_3__SideBar_SideBar__["a" /* SideBar */], null),
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"](__WEBPACK_IMPORTED_MODULE_4__Footer__["a" /* Footer */], null));
     };
     return Layout;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]));
@@ -12737,6 +12365,779 @@ __webpack_require__(67);
 __webpack_require__(66);
 module.exports = __webpack_require__(65);
 
+
+/***/ }),
+/* 214 */,
+/* 215 */,
+/* 216 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process, module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Footer; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+var Footer = (function (_super) {
+    __extends(Footer, _super);
+    function Footer() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    Footer.prototype.render = function () {
+        return (__WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("footer", { className: "main-footer" },
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "pull-right hidden-xs" },
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("b", null, "Version"),
+                " 2.4.0"),
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("strong", null,
+                "Copyright \u00A9 2014-2016 ",
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "https://adminlte.io" }, "Almsaeed Studio"),
+                "."),
+            " All rights reserved."));
+    };
+    return Footer;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]));
+
+
+
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\Layout\\Footer.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\Layout\\Footer.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1), __webpack_require__(2)(module)))
+
+/***/ }),
+/* 217 */,
+/* 218 */,
+/* 219 */,
+/* 220 */,
+/* 221 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process, module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Header; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+var Header = (function (_super) {
+    __extends(Header, _super);
+    function Header() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    Header.prototype.render = function () {
+        return (__WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("header", { className: "main-header" },
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "index2.html", className: "logo" },
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "logo-mini" },
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("b", null, "H"),
+                    "St"),
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "logo-lg" },
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("b", null, "Hole"),
+                    "Shot")),
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("nav", { className: "navbar navbar-static-top" },
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#", className: "sidebar-toggle", "data-toggle": "push-menu", role: "button" },
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "sr-only" }, "Toggle navigation")),
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "navbar-custom-menu" },
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "nav navbar-nav" },
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "dropdown messages-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#", className: "dropdown-toggle", "data-toggle": "dropdown" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-envelope-o" }),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "label label-success" }, "4")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "dropdown-menu" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "header" }, "You have 4 messages"),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "menu" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "pull-left" },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("img", { src: "dist/img/user2-160x160.jpg", className: "img-circle", alt: "User Image" })),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h4", null,
+                                                    "Support Team",
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", null,
+                                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-clock-o" }),
+                                                        " 5 mins")),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "Why not buy a new awesome theme?"))),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "pull-left" },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("img", { src: "dist/img/user3-128x128.jpg", className: "img-circle", alt: "User Image" })),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h4", null,
+                                                    "AdminLTE Design Team",
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", null,
+                                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-clock-o" }),
+                                                        " 2 hours")),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "Why not buy a new awesome theme?"))),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "pull-left" },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("img", { src: "dist/img/user4-128x128.jpg", className: "img-circle", alt: "User Image" })),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h4", null,
+                                                    "Developers",
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", null,
+                                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-clock-o" }),
+                                                        " Today")),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "Why not buy a new awesome theme?"))),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "pull-left" },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("img", { src: "dist/img/user3-128x128.jpg", className: "img-circle", alt: "User Image" })),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h4", null,
+                                                    "Sales Department",
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", null,
+                                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-clock-o" }),
+                                                        " Yesterday")),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "Why not buy a new awesome theme?"))),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "pull-left" },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("img", { src: "dist/img/user4-128x128.jpg", className: "img-circle", alt: "User Image" })),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h4", null,
+                                                    "Reviewers",
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", null,
+                                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-clock-o" }),
+                                                        " 2 days")),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "Why not buy a new awesome theme?"))))),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "footer" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" }, "See All Messages")))),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "dropdown notifications-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#", className: "dropdown-toggle", "data-toggle": "dropdown" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-bell-o" }),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "label label-warning" }, "10")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "dropdown-menu" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "header" }, "You have 10 notifications"),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "menu" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-users text-aqua" }),
+                                                " 5 new members joined today")),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-warning text-yellow" }),
+                                                " Very long description here that may not fit into the page and may cause design problems")),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-users text-red" }),
+                                                " 5 new members joined")),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-shopping-cart text-green" }),
+                                                " 25 sales made")),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-user text-red" }),
+                                                " You changed your username")))),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "footer" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" }, "View all")))),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "dropdown tasks-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#", className: "dropdown-toggle", "data-toggle": "dropdown" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-flag-o" }),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "label label-danger" }, "9")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "dropdown-menu" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "header" }, "You have 9 tasks"),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "menu" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h3", null,
+                                                    "Design some buttons",
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "pull-right" }, "20%")),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress xs" },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress-bar progress-bar-aqua", style: { width: '20%' }, role: "progressbar", "aria-valuenow": "20", "aria-valuemin": "0", "aria-valuemax": "100" },
+                                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "sr-only" }, "20% Complete"))))),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h3", null,
+                                                    "Create a nice theme",
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "pull-right" }, "40%")),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress xs" },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress-bar progress-bar-green", style: { width: '40%' }, role: "progressbar", "aria-valuenow": "20", "aria-valuemin": "0", "aria-valuemax": "100" },
+                                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "sr-only" }, "40% Complete"))))),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h3", null,
+                                                    "Some task I need to do",
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "pull-right" }, "60%")),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress xs" },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress-bar progress-bar-red", style: { width: '60%' }, role: "progressbar", "aria-valuenow": "20", "aria-valuemin": "0", "aria-valuemax": "100" },
+                                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "sr-only" }, "60% Complete"))))),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h3", null,
+                                                    "Make beautiful transitions",
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "pull-right" }, "80%")),
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress xs" },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress-bar progress-bar-yellow", style: { width: '80%' }, role: "progressbar", "aria-valuenow": "20", "aria-valuemin": "0", "aria-valuemax": "100" },
+                                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "sr-only" }, "80% Complete"))))))),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "footer" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" }, "View all tasks")))),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "dropdown user user-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#", className: "dropdown-toggle", "data-toggle": "dropdown" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("img", { src: "dist/img/user2-160x160.jpg", className: "user-image", alt: "User Image" }),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "hidden-xs" }, "Alexander Pierce")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "dropdown-menu" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "user-header" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("img", { src: "dist/img/user2-160x160.jpg", className: "img-circle", alt: "User Image" }),
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null,
+                                        "Alexander Pierce - Web Developer",
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", null, "Member since Nov. 2012"))),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "user-body" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "row" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "col-xs-4 text-center" },
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" }, "Followers")),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "col-xs-4 text-center" },
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" }, "Sales")),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "col-xs-4 text-center" },
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" }, "Friends")))),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "user-footer" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "pull-left" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#", className: "btn btn-default btn-flat" }, "Profile")),
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "pull-right" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#", className: "btn btn-default btn-flat" }, "Sign out"))))),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#", "data-toggle": "control-sidebar" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-gears" }))))))));
+    };
+    return Header;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]));
+
+
+
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\Layout\\Header\\Header.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\Layout\\Header\\Header.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1), __webpack_require__(2)(module)))
+
+/***/ }),
+/* 222 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process, module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavMenu; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__UserPanel__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__SearchForm__ = __webpack_require__(223);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+var NavMenu = (function (_super) {
+    __extends(NavMenu, _super);
+    function NavMenu() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    NavMenu.prototype.render = function () {
+        return (__WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("aside", { className: "main-sidebar" },
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("section", { className: "sidebar" },
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"](__WEBPACK_IMPORTED_MODULE_1__UserPanel__["a" /* default */], null),
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"](__WEBPACK_IMPORTED_MODULE_2__SearchForm__["a" /* default */], null),
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "sidebar-menu", "data-widget": "tree" },
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "header" }, "MAIN NAVIGATION"),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "active treeview" },
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-dashboard" }),
+                            " ",
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Dashboard"),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "active" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "index.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Dashboard v1")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "index2.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Dashboard v2")))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-files-o" }),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Layout Options"),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "label label-primary pull-right" }, "4"))),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/layout/top-nav.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Top Navigation")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/layout/boxed.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Boxed")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/layout/fixed.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Fixed")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/layout/collapsed-sidebar.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Collapsed Sidebar")))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/widgets.html" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-th" }),
+                            " ",
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Widgets"),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "label pull-right bg-green" }, "new")))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-pie-chart" }),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Charts"),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/charts/chartjs.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " ChartJS")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/charts/morris.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Morris")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/charts/flot.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Flot")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/charts/inline.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Inline charts")))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-laptop" }),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "UI Elements"),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/UI/general.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " General")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/UI/icons.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Icons")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/UI/buttons.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Buttons")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/UI/sliders.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Sliders")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/UI/timeline.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Timeline")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/UI/modals.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Modals")))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-edit" }),
+                            " ",
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Forms"),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/forms/general.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " General Elements")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/forms/advanced.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Advanced Elements")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/forms/editors.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Editors")))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-table" }),
+                            " ",
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Tables"),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/tables/simple.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Simple tables")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/tables/data.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Data tables")))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/calendar.html" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-calendar" }),
+                            " ",
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Calendar"),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "label pull-right bg-red" }, "3"),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "label pull-right bg-blue" }, "17")))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/mailbox/mailbox.html" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-envelope" }),
+                            " ",
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Mailbox"),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "label pull-right bg-yellow" }, "12"),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "label pull-right bg-green" }, "16"),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("small", { className: "label pull-right bg-red" }, "5")))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-folder" }),
+                            " ",
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Examples"),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/invoice.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Invoice")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/profile.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Profile")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/login.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Login")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/register.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Register")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/lockscreen.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Lockscreen")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/404.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " 404 Error")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/500.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " 500 Error")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/blank.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Blank Page")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "pages/examples/pace.html" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Pace Page")))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-share" }),
+                            " ",
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Multilevel"),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Level One")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Level One",
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                            " Level Two")),
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "treeview" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                            " Level Two",
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "pull-right-container" },
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-angle-left pull-right" }))),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "treeview-menu" },
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                                    " Level Three")),
+                                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                                    " Level Three")))))),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o" }),
+                                    " Level One")))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "https://adminlte.io/docs" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-book" }),
+                            " ",
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Documentation"))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", { className: "header" }, "LABELS"),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o text-red" }),
+                            " ",
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Important"))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o text-yellow" }),
+                            " ",
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Warning"))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle-o text-aqua" }),
+                            " ",
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", null, "Information")))))));
+    };
+    return NavMenu;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]));
+
+
+
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\Layout\\NavMenu\\NavMenu.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\Layout\\NavMenu\\NavMenu.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1), __webpack_require__(2)(module)))
+
+/***/ }),
+/* 223 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process, module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+var SearchForm = (function (_super) {
+    __extends(SearchForm, _super);
+    function SearchForm() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    SearchForm.prototype.render = function () {
+        return (__WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("form", { action: "#", method: "get", className: "sidebar-form" },
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "input-group" },
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("input", { type: "text", name: "q", className: "form-control", placeholder: "Search..." }),
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "input-group-btn" },
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("button", { type: "submit", name: "search", id: "search-btn", className: "btn btn-flat" },
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-search" }))))));
+    };
+    return SearchForm;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]));
+/* harmony default export */ __webpack_exports__["a"] = (SearchForm);
+
+
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\Layout\\NavMenu\\SearchForm.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\Layout\\NavMenu\\SearchForm.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1), __webpack_require__(2)(module)))
+
+/***/ }),
+/* 224 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process, module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+var UserPanel = (function (_super) {
+    __extends(UserPanel, _super);
+    function UserPanel() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    UserPanel.prototype.render = function () {
+        return (__WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "user-panel" },
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "pull-left image" },
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("img", { src: "dist/img/user2-160x160.jpg", className: "img-circle", alt: "User Image" })),
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "pull-left info" },
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "Alexander Pierce"),
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#" },
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-circle text-success" }),
+                    " Online"))));
+    };
+    return UserPanel;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]));
+/* harmony default export */ __webpack_exports__["a"] = (UserPanel);
+
+
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\Layout\\NavMenu\\UserPanel.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\Layout\\NavMenu\\UserPanel.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1), __webpack_require__(2)(module)))
+
+/***/ }),
+/* 225 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process, module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SideBar; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+var SideBar = (function (_super) {
+    __extends(SideBar, _super);
+    function SideBar() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    SideBar.prototype.render = function () {
+        return (__WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", null,
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("aside", { className: "control-sidebar control-sidebar-dark" },
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "nav nav-tabs nav-justified control-sidebar-tabs" },
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#control-sidebar-home-tab", "data-toggle": "tab" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-home" }))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "#control-sidebar-settings-tab", "data-toggle": "tab" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-gears" })))),
+                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "tab-content" },
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "tab-pane", id: "control-sidebar-home-tab" },
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h3", { className: "control-sidebar-heading" }, "Recent Activity"),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "control-sidebar-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "javascript:void(0)" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "menu-icon fa fa-birthday-cake bg-red" }),
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "menu-info" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h4", { className: "control-sidebar-subheading" }, "Langdon's Birthday"),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "Will be 23 on April 24th")))),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "javascript:void(0)" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "menu-icon fa fa-user bg-yellow" }),
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "menu-info" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h4", { className: "control-sidebar-subheading" }, "Frodo Updated His Profile"),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "New phone +1(800)555-1234")))),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "javascript:void(0)" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "menu-icon fa fa-envelope-o bg-light-blue" }),
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "menu-info" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h4", { className: "control-sidebar-subheading" }, "Nora Joined Mailing List"),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "nora@example.com")))),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "javascript:void(0)" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "menu-icon fa fa-file-code-o bg-green" }),
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "menu-info" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h4", { className: "control-sidebar-subheading" }, "Cron Job 254 Executed"),
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "Execution time 5 seconds"))))),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h3", { className: "control-sidebar-heading" }, "Tasks Progress"),
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("ul", { className: "control-sidebar-menu" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "javascript:void(0)" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h4", { className: "control-sidebar-subheading" },
+                                        "Custom Template Design",
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "label label-danger pull-right" }, "70%")),
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress progress-xxs" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress-bar progress-bar-danger", style: { width: '70%' } })))),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "javascript:void(0)" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h4", { className: "control-sidebar-subheading" },
+                                        "Update Resume",
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "label label-success pull-right" }, "95%")),
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress progress-xxs" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress-bar progress-bar-success", style: { width: '95%' } })))),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "javascript:void(0)" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h4", { className: "control-sidebar-subheading" },
+                                        "Laravel Integration",
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "label label-warning pull-right" }, "50%")),
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress progress-xxs" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress-bar progress-bar-warning", style: { width: '50%' } })))),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("li", null,
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "javascript:void(0)" },
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h4", { className: "control-sidebar-subheading" },
+                                        "Back End Framework",
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("span", { className: "label label-primary pull-right" }, "68%")),
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress progress-xxs" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "progress-bar progress-bar-primary", style: { width: '68%' } })))))),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "tab-pane", id: "control-sidebar-stats-tab" }, "Stats Tab Content"),
+                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "tab-pane", id: "control-sidebar-settings-tab" },
+                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("form", { method: "post" },
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h3", { className: "control-sidebar-heading" }, "General Settings"),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "form-group" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("label", { className: "control-sidebar-subheading" },
+                                    "Report panel usage",
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("input", { type: "checkbox", className: "pull-right", checked: true })),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "Some information about this general settings option")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "form-group" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("label", { className: "control-sidebar-subheading" },
+                                    "Allow mail redirect",
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("input", { type: "checkbox", className: "pull-right", checked: true })),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "Other sets of options are available")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "form-group" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("label", { className: "control-sidebar-subheading" },
+                                    "Expose author name in posts",
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("input", { type: "checkbox", className: "pull-right", checked: true })),
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("p", null, "Allow the user to show his name in blog posts")),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("h3", { className: "control-sidebar-heading" }, "Chat Settings"),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "form-group" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("label", { className: "control-sidebar-subheading" },
+                                    "Show me as online",
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("input", { type: "checkbox", className: "pull-right", checked: true }))),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "form-group" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("label", { className: "control-sidebar-subheading" },
+                                    "Turn off notifications",
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("input", { type: "checkbox", className: "pull-right" }))),
+                            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "form-group" },
+                                __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("label", { className: "control-sidebar-subheading" },
+                                    "Delete chat history",
+                                    __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("a", { href: "javascript:void(0)", className: "text-red pull-right" },
+                                        __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("i", { className: "fa fa-trash-o" })))))))),
+            __WEBPACK_IMPORTED_MODULE_0_react__["createElement"]("div", { className: "control-sidebar-bg" })));
+    };
+    return SideBar;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]));
+
+
+
+ ;(function register() { /* react-hot-loader/webpack */ if (process.env.NODE_ENV !== 'production') { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\Layout\\SideBar\\SideBar.tsx"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "C:\\Users\\maris_apels\\Documents\\Projects\\HoleShot\\HoleShot\\ClientApp\\components\\Layout\\SideBar\\SideBar.tsx"); } } })();
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1), __webpack_require__(2)(module)))
 
 /***/ })
 /******/ ]);

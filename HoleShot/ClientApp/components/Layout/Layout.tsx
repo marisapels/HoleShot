@@ -1,12 +1,14 @@
 import * as React from 'react';
-import { NavMenu } from '../LayoutNavMenu/NavMenu';
+import { NavMenu } from './NavMenu/NavMenu';
+import { Header } from './Header/Header';
+import { SideBar } from './SideBar/SideBar';
+import { Footer } from './Footer';
 
 export class Layout extends React.Component<{}, {}> {
     public render() {
         return <div>
-         
+                    <Header />
                     <NavMenu />
-              
                     <div className="content-wrapper">
                         <section className="content-header">
                         <h1>
@@ -22,8 +24,12 @@ export class Layout extends React.Component<{}, {}> {
                         <section className="content">
                             { this.props.children }
                         </section>
-                    </div>  
+                    </div> 
+                    <SideBar />
+                    <Footer /> 
+                    
                 </div>
+               
             ;
     }
 }

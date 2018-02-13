@@ -3,15 +3,29 @@ import { NavMenu } from '../LayoutNavMenu/NavMenu';
 
 export class Layout extends React.Component<{}, {}> {
     public render() {
-        return <div className='container-fluid'>
-            <div className='row'>
-                <div className='col-sm-3'>
+        return <div>
+         
                     <NavMenu />
+              
+                    <div className="content-wrapper">
+                        <section className="content-header">
+                        <h1>
+                            Blank page
+                            <small>it all starts here</small>
+                        </h1>
+                        <ol className="breadcrumb">
+                            <li><a href="#"><i className="fa fa-dashboard"></i> Home</a></li>
+                            <li><a href="#">Examples</a></li>
+                            <li className="active">Blank page</li>
+                        </ol>
+                        </section>
+                        <section className="content">
+                            { this.props.children }
+                        </section>
+                    </div>  
                 </div>
-                <div className='col-sm-9'>
-                    { this.props.children }
-                </div>
-            </div>
-        </div>;
+            ;
     }
 }
+
+
